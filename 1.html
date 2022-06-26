@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="in">
+    <head>
+        <meta charset="utf-8">
+        <title>????</title>
+    </head>
+    <body>
+      <button type="button" id="btn">login</button>
+
+      <script src="dist/sweetalert2.all.min.js"></script>
+
+      <script>
+       const btn = document.getElementById('btn');
+       btn.addEventListener('click', function(){
+        Swal.fire({
+  title: 'Text I',
+  showClass: {
+    popup: 'animate__animated animate__fadeInDown'
+  },
+  hideClass: {
+    popup: 'animate__animated animate__fadeOutUp'
+  }
+})
+       })
+      </script>
+    </body>
+        
